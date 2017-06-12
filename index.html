@@ -6,7 +6,7 @@
   </head>
   <body>
     <header>
-      <div id="logo">
+      <div class="logo">
         <img src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
         <span>Colmar</span>
         <span>Academy</span>
@@ -22,72 +22,143 @@
 </header>
 <main>
 <!--learn something new-->
-  <section id="banner">
-    <div class="container">
-      <div class="image1">
+  <section id="banner" class="container">
+    <div class="primary">
         <img src="resources/images/banner.jpg" alt="learning">
       </div>
-      <div class="title1">
+      <div class="banner-text">
         <h1>Learn something</h1>
         <h1>new everyday</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet,</p>
-        <p>consectetur adipiscing elit.</p>
-        <br>
+        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
         <p class="button">Start here</p>
       </div>
     </div>
   </section>
   <!--school info-->
-  <section id="info">
-    <div class="container">
-      <article class="leftstory"
-      <div class ="img-box">
-        <img src ="./resources/images/information-main.jpg" alt>
-      </div>
-      <div class ="box-text">
-        <h3>It doesn't hurt to keep practicing</h3>
-        <p> "Curabitur vitae libero in ipsum porttior consequat. Aliqum et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat es. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligule."</p>
-        <p class="author">Emanuel, Sr. Strategist at Hiring.com</p>
-      </div>
-    </article>
-    <div class="side-stories">
-      <article class="box-stories">
-      <div class="box-img">
-        <img src="./resources/images/information-orientation.jpg" alt>
-      </div>
-      <div class="box-text">
-        <h4>Orientation date</h4>
-        <p>Tue 10/11 and Wed 10/12 8am-3pm</p>
-        <a href="#"Read more</a>
-      </div>
-    </article>
-    <article class="box-stories">
-    <div class="box-img">
-      <img src="./resources/images/information-campus.jpg" alt>
+  <section id="info" class="container">
+    <div class="primary">
+      <img src ="./resources/images/information-main.jpg" alt="person studying">
+      <h3>It doesn't hurt to keep practicing</h3>
+      <p> "Curabitur vitae libero in ipsum porttior consequat. Aliqum et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat es. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligule."</p>
+      <p>Emanuel, Sr. Strategist at Hiring.com</p>
     </div>
-    <div class="box-text">
-      <h4>Our campus</h4>
-      <p>Find which campus is close to you</p>
-      <a href="#"Read more</a>
+      <div class="secondary">
+        <div class="container">
+          <img src="./resources/images/information-orientation.jpg" alt="orientation">
+          <div class="secondary-copy">
+            <h4>Orientation date</h4>
+            <p>Tue 10/11 and Wed 10/12 8am-3pm</p>
+            <p>
+              <a href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./resources/images/information-campus.jpg" alt="campus">
+          <div class="secondary-copy">
+            <h4>Our campus</h4>
+            <p>Find which campus is close to you</p>
+            <p>
+              <a href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./resources/images/information-guest-lecture.jpg" alt="lecture">
+          <div class="secondary-copy">
+            <h4>Our guest lecture</h4>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <p>
+              <a href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Courses-->
+    <section id="courses">
+      <h2>Start Learning</h2>
+      <div class="course-container">
+        <div class="course-info">
+        <img src="./resources/images/course-software.jpg" alt="software engineering">
+        <div class="course-copy">
+          <h3>Software Engineering</h3>
+          <p>COURSES</p>
+          <p>Web Development, Mobile Development, iOT, APIs</p>
+        </div>
+      </div>
+        <div class="course-info">
+        <img src="./resources/images/course-computer-art.jpg" alt="computer art">
+        <div class="course-copy">
+          <h3>Computer Art</h3>
+          <p>COURSES</p>
+          <p>Imaging and Design, Web Design, Motion Graphics and Visual effects, Computer Animation</p>
+        </div>
+      </div>
+      <div class="course-info">
+      <img src="./resources/images/course-design.jpg" alt="design">
+      <div class="course-copy">
+        <h3>Design</h3>
+        <p>COURSES</p>
+        <p>User Experience Design, User Research, Visual Design</p>
+      </div>
     </div>
-  </article>
-  <article class="box-stories">
-  <div class="box-img">
-    <img src="./resources/images/information-guest-lecture.jpg" alt>
+    <div class="course-info">
+    <img src="./resources/images/course-data.jpg" alt="data">
+    <div class="course-copy">
+      <h3>Data</h3>
+      <p>COURSES</p>
+      <p>Data Science, Big Data, SQL, Data Visualisation</p>
+    </div>
   </div>
-  <div class="box-text">
-    <h4>Our guest lecture</h4>
-    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-    <a href="#"Read more</a>
+  <div class="course-info">
+    <img src="./resources/images/course-business.jpg" alt="business">
+      <div class="course-copy">
+      <h3>Business</h3>
+      <p>COURSES</p>
+      <p>Product Development, Business Development, Startup</p>
+   </div>
+</div>
+<div class="course-info">
+  <img src="./resources/images/course-marketing.jpg" alt="marketing">
+     <div class="course-copy">
+     <h3>Marketing</h3>
+     <p>COURSES</p>
+     <p>Analytics, Content Marketing, Mobile Marketing</p>
   </div>
-</article>
 </div>
 </div>
 </section>
-
-
-
-
+<!--Thesesis-->
+<section id="thesis" class="container">
+  <div class="primary">
+    <video src="./resources/videos/thesis.mp4" controls autoplay loop></video>
+    <h3>Reimagine Urban</h3>
+    <p>"Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet efficitur dolo consequat, tristique ligula."</p>
+  </div>
+    <div class="secondary">
+      <div class="container">
+        <img src="./resources/images/thesis-fisma.jpg" alt="drawing">
+        <div class="secondary-copy">
+          <h4>FISMA: Design and Security</h4>
+          <p>Designer showcase of new prototype project</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="./resources/images/thesis-now-and-then.jpg" alt="empire state building">
+        <div class="secondary-copy">
+          <h4>Now and Then</h4>
+          <p>Research study about New York</p>
+        </div>
+      </div>
+    </section>
+<!--Footer-->
+<footer class="container">
+    <span>2016 Colmar Academtn. All rights reserved</span>
+  </div>
+  <nav class"footer-right">
+  <a href="#">Terms</a>
+  <a href="#">Privacy</a>
+     </nav>
+</footer>
   </body>
 </html>
