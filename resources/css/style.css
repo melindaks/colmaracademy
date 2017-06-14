@@ -270,6 +270,8 @@ a {
 .mobile {
   display: flex;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 @media only screen and (max-width: 635px) {
 .mobile nav {
@@ -280,9 +282,25 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
 }
 @media only screen and (max-width: 635px) {
 .mobile img {
   margin-bottom: -3px;
+}
+@media only screen and (max-width: 635px) {
+  #banner {
+    flex-direction: column;
+  }
+@media only screen and (max-width: 635px) {
+  #banner .primary {
+    width: 100%;
+    padding: 0;
+  }
+@media only screen and (max-width: 635px) {
+  .banner-text {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 }
